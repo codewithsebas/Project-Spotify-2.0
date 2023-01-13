@@ -4,11 +4,11 @@
 
 /* Active Navigation Link */
 .active {
-  @apply text-cyan-500;
+  @apply text-white;
 }
 
 .active svg {
-  @apply text-cyan-500;
+  @apply text-white;
 }
 
 .bar:nth-child(2) {
@@ -45,8 +45,3 @@ html {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
